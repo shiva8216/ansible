@@ -15,6 +15,10 @@
       enabled: yes
 
 
+  - name: create the file 
+    ansible.builtin.file:
+      path: /var/tmp/my/js
+      state: touch
 
   - name: remove file
     ansible.builtin.file:
