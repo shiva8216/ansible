@@ -1,5 +1,5 @@
 - name: install and run nginx
-  hosts: eb
+  hosts: web
   beocome: yes #its root acces to install
   tasks:
     -name: install nginx
