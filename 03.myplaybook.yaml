@@ -1,5 +1,5 @@
 - name: install and run nginx
-  host: eb
+  host: web
   become: yes
   tasks:
 
@@ -12,4 +12,4 @@
     ansible.builtin.service:
     name: nginx
     enabled: yes
-    
+
