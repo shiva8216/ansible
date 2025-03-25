@@ -15,16 +15,6 @@
       enabled: yes
 
 
- # - name: Create directory
-    ansible.builtin.file:
-      path: /var/tmp/my
-      state: directory
-      mode: '0755'
-
- # - name: create the file 
-    ansible.builtin.file:
-      path: /var/tmp/my/js
-      state: touch
 
   - name: remove file
     ansible.builtin.file:
