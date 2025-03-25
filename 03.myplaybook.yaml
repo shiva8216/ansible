@@ -17,8 +17,8 @@
 
   - name: Create directory
     ansible.builtin.file:
-    path: /var/tmp/my
-    state: directory
-    mode: '0755'
+      path: /var/tmp/my
+      state: directory
+      mode: '0755'
 
 
